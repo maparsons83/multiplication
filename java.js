@@ -22,11 +22,11 @@
 var color_td;
 document.write("<table border>");
 
-for(var a = 1; a < 10; a++) {
+for(var a = 1; a < 11; a++) {
 
 	document.write("<tr>");
 
-	for(var b = 1; b < 10; b++) {
+	for(var b = 1; b < 11; b++) {
 
 		if(b == 1 || a == 1) {
 			
