@@ -10,8 +10,9 @@ table {
     padding: 2px;
     table-layout: fixed;
     width: calc (100%/10);
+    background: lavenderblush
     
     }
 
-tr:nth-child(odd) {background: lightgreen}
-tr:nth-child(even) {background: lavenderblush}
+tr:first-child {background: lightgreen}
+td:first-child {background: lightgreen}
